@@ -1,8 +1,8 @@
 import React from 'react';
 import { Icon, Menu } from 'semantic-ui-react';
 import './SideBarItem.scss';
-import { Link, withRouter } from 'react-router-dom';
-
+import { Link } from 'react-router-dom';
+import withRouter from '../../../services/withRouter';
 export class SideBarItem extends React.Component {
     render() {
         const highlight = this.shouldBeHighlighted() ? 'highlight-item' : null;

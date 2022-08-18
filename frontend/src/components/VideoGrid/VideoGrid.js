@@ -1,6 +1,6 @@
 import React from "react";
 import './VideoGrid.scss';
-import { VideoGridHeader } from './VideoGridHeader/VideoGridHeader.js';
+import VideoGridHeader from './VideoGridHeader/VideoGridHeader.js';
 import { Divider } from 'semantic-ui-react';
 import { VideoPreview } from '../VideoPreview/VideoPreview';
 

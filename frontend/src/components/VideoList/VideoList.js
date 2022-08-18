@@ -1,6 +1,6 @@
 import React from 'react'
 import { SideBar } from '../../containers/SideBar/SideBar';
-import { InfiniteScroll } from '../InfiniteScroll/InfiniteScroll';
+import InfiniteScroll from '../InfiniteScroll/InfiniteScroll';
 import './VideoList.scss';
 import { VideoPreview } from '../VideoPreview/VideoPreview';
 

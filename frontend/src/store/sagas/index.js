@@ -1,4 +1,5 @@
-import { all, call, put, fork } from 'react-redux';
+/* eslint-disable import/no-anonymous-default-export */
+import { all, call, put, fork } from 'redux-saga/effects';
 import { watchMostPopularVideos, watchMostPopularVideosByCategory, watchVideoCategories } from './video';
 import { watchWatchDetails } from './watch';
 import { watchCommentThread } from './comment';

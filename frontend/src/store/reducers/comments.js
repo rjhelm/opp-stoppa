@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import { SUCCESS } from '../actions';
 import { WATCH_DETAILS } from '../actions/watch';
 import { COMMENT_THREAD_LIST_RESPONSE } from '../api/youtube-api-response-types';

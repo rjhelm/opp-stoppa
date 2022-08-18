@@ -1,7 +1,7 @@
 import React from 'react';
 import { bindActionCreators } from 'redux';
 import * as watchActions from '../../store/actions/watch';
-import { withRouter } from 'react-router-dom';
+import withRouter from '../../services/withRouter.js';
 import { connect } from 'react-redux';
 import { getYoutubeLibraryLoaded } from '../../store/reducers/api';
 import WatchContent from './WatchContent/WatchContent';

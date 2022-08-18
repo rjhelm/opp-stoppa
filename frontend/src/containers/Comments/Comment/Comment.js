@@ -1,7 +1,7 @@
 import React from 'react';
 import './Comment.scss';
 import { Button, Image } from 'semantic-ui-react';
-import { Rating } from '../../../component/Rating/Rating';
+import { Rating } from '../../../components/Rating/Rating';
 
 export const Comment = (props) => {
     if (!props.comment) {

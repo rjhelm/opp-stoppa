@@ -1,5 +1,5 @@
 import React from 'react';
-import { Video } from '../../../components/Video/Video';
+import Video from '../../../components/Video/Video';
 import { VideoMetadata } from '../../../components/VideoMetadata/VideoMetadata';
 import { VideoInfoBox } from '../../../components/VideoInfoBox/VideoInfoBox';
 import { Comments } from '../../Comments/Comments';
@@ -9,7 +9,7 @@ import { getAmountComments, getRelatedVideos, getVideoById } from '../../../stor
 import { connect } from 'react-redux';
 import { getChannel } from '../../../store/reducers/channels';
 import { getCommentsForVideo } from '../../../store/reducers/comments';
-import { InfiniteScroll } from '../../../components/InfiniteScroll/InfiniteScroll';
+import InfiniteScroll from '../../../components/InfiniteScroll/InfiniteScroll';
 
 class WatchContent extends React.Component {
     render() {

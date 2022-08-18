@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import { YOUTUBE_LIBRARY_LOADED } from '../actions/api';
 
 const initialState = {

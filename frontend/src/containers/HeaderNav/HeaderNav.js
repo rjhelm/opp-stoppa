@@ -2,7 +2,8 @@ import React from 'react';
 import { Form, Icon, Image, Input, Menu } from 'semantic-ui-react';
 import './HeaderNav.scss';
 import logo from '../../assets/images/logo.png';
-import { Link, withRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import withRouter from '../../services/withRouter';
 
 export class HeaderNav extends React.Component {
     constructor(props) {

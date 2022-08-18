@@ -2,7 +2,7 @@ import React from 'react';
 import './VideoInfoBox.scss'
 import { Image, Button, Divider } from 'semantic-ui-react';
 import Linkify from 'react-linkify';
-import { getPublishedAtDateString } from '../../services/date/date-format';
+import { getPublishedDateString } from '../../services/date/date-format';
 import { getShortNumberString } from '../../services/number/number-format';
 
 export class VideoInfoBox extends React.Component {
@@ -20,7 +20,7 @@ export class VideoInfoBox extends React.Component {
 
         const descriptionParagraphs = this.getDescriptionParagraphs();
         const { descriptionTextClass, buttonTitle } = this.getConfig();
-        const publishedAtString = getPublishedAtDateString(this.props.video.snippet.publishedAt);
+        const publishedAtString = getPublishedDateString(this.props.video.snippet.publishedAt);
 
         const { channel } = this.props;
         const buttonText = this.getSubscriberButtonText();

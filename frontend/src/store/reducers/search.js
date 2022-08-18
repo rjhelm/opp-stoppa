@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import { SEARCH_FOR_VIDEOS } from '../actions/search';
 import { REQUEST, SUCCESS } from '../actions';
 

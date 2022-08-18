@@ -7,7 +7,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { getSearchParam } from '../../services/url';
 import { VideoList } from '../../components/VideoList/VideoList';
-import { withRouter } from 'react-router-dom';
+import withRouter from '../../services/withRouter';
 
 class Search extends React.Component {
     render() {
